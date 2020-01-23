@@ -1,0 +1,8 @@
+WIDGET,VERSION,LAST UPDATE,LINK,NOTES
+AddLayer,1.3.1,2/21/2016,https://geonet.esri.com/docs/DOC-7629 ,WAB 2.14 - See 3/23/2017 note for removing service name. 
+eDraw,2.8.1,5/9/2018,https://geonet.esri.com/thread/122331 ,Needed line 2272 in Widget.js commented out to work starting at WAB 2.13 | Projection distance & area issues: https://github.com/magis-nc/esri-webappbuilder-widget-eDraw/issues | Use previous version (2.1.2) until fixed. | Also GitHub version where bugs are being worked on: https://github.com/magis-nc/esri-webappbuilder-widget-eDraw
+Measure,2.4,5/5/2017,https://geonet.esri.com/docs/DOC-3209 ,"At WAB 2.14 if you move the vertices too much the dimensions get messy as the various labels will overlap. Demo (WAB 2.4) where Polyline & Polygon work: https://gis.yakimawa.gov/measure/  TO SUSIE ROGERS: Also, the Measure tool can currently record bearings for Lines, Polylines, and Polygons if the ‘Show Bearing’ option is checked.  However, there is a recent bug where the graphic needs to be selected, resized to create a vertex, and then the new vertex needs to be deleted to correct the bearing text.   Awkward I know, but a workaround until it is fixed next year. "
+SaveSession,2.7,4/3/2018,https://github.com/softwhere/SaveSession-Widget,WAB 2.14 - Only works with map services.  | Feature services: Network browser error creating json; browser cache works only during current session.  ArcGISTiledMapServiceLayer: Creates json file but won't draw. | Alternative version at https://community.esri.com/docs/DOC-13447-savesession-that-supports-heavy-map-layers-and-imagery-layers | Discussion at https://community.esri.com/docs/DOC-7661-savesession-widget (last on 10/15/2019)
+,,,,
+,,,,Last update:  1/14/2020
+,,,,
